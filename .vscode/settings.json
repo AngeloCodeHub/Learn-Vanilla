@@ -1,0 +1,10 @@
+{
+  "window.title": "${rootName}",
+  "cSpell.words": [],
+  "files.exclude": {
+    // ".obsidian": true,
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  // "explorer.excludeGitIgnore": true
+}
