@@ -1,14 +1,8 @@
 # Vanilla 中文電子參考書
 
-媒體類型: 電子書
-分類: 前端技術
-熟練度: 70
+## [最完整跨平台網頁設計：HTML + CSS + JavaScript + jQuery + Bootstrap + Google Maps王者歸來](https://ksml.ebook.hyread.com.tw/bookDetail.jsp?id=263276)
 
 ## [HTML/CSS/JavaScript與前端框架的完美結合：使用Bootstrap與PWA技術，新手從這開始！](https://www.drmaster.com.tw/Bookinfo.asp?BookID=MP22262)
-
-## [最完整跨平台網頁設計：HTML + CSS + JavaScript + jQuery + Bootstrap + Google Maps王者歸來](https://www.books.com.tw/products/0010901160)
-
-30～32不用看
 
 - 客戶端Request時會建立伺服器連線，資料傳輸分成Get和post兩種方法
 - Get是將請求的資料以key-value的方式加在網址後方，也就是請求參數（Query String），位於網址家問號的後方文字
@@ -173,7 +167,6 @@ HTML5統一了網頁架構的標記，去掉多餘的div，而用一些容易識
 
 ### 8：Javascript基礎
 
-- javscript、php、react產生html標籤
 - 瀏覽器會被cache的靜態資源：圖片、js、css
 寫前端避免cache的方式1
 <link rel="stylesheet" type="text/css" href="[http://mysite/style.css?v=](http://mysite/style.css?v=)<?=time()?>">

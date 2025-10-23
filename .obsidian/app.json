@@ -1,7 +1,9 @@
 {
   "userIgnoreFilters": [
     "node_modules/",
-    "src/"
+    "src/",
+    "_example/",
+    "dist/"
   ],
   "showInlineTitle": false,
   "showLineNumber": true,
