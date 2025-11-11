@@ -1,4 +1,4 @@
-# Vanilla 中文電子參考書
+# 筆記（old）
 
 - 客戶端Request時會建立伺服器連線，資料傳輸分成Get和post兩種方法
 - Get是將請求的資料以key-value的方式加在網址後方，也就是請求參數（Query String），位於網址家問號的後方文字
@@ -19,56 +19,6 @@ HTML5統一了網頁架構的標記，去掉多餘的div，而用一些容易識
     
 - 連結外部css樣式表語法：<link rel=stylesheet href=”css檔路徑”>
 檔路徑可以是cdn節點，當瀏覽器逛其他網站已經有載入則會cache，可以加速連結速度也可以節省流量
-- CSS樣式表是由選擇器（Selector）與樣式規則（Rule）所組成
-目標可以是HTML標記、class屬性、或id屬性，可以將選擇器寫在一起其中用逗號隔開，規則使用分號隔開
-    
-    ![螢幕擷取畫面 2024-04-15 160834.png](%25E8%259E%25A2%25E5%25B9%2595%25E6%2593%25B7%25E5%258F%2596%25E7%2595%25AB%25E9%259D%25A2_2024-04-15_160834.png)
-    
-- CSS選擇器很多，基本的六種
-標記名稱（Element）、通用選擇器（*）、Class選擇器（.）、ID選擇器（#）、屬性選擇器、虛擬類別選擇器（:）
-- 通用選擇器：套用所有HTML標籤
-    
-- id選擇器：同一份網頁文件不能有重複的id屬性名稱
-    
-    ```html
-    <!DOCTYPE HTML>
-    <html>
-    
-    <head>
-    	<title>串接樣式</title>
-    	<style>
-    		.txt1 {
-    			font-size: 30px;
-    			font-weight: bold;
-    		}
-    
-    		.txt {
-    			font-size: 24px;
-    			color: Red;
-    			font-family: Broadway BT;
-    			font-weight: bold;
-    			border: 1px #336699 solid;
-    			text-align: center;
-    		}
-    
-    		p.txt {
-    			color: blue;
-    		}
-    
-    		#pid {
-    			border: 5px #336699 double;
-    		}
-    	</style>
-    </head>
-    
-    <body>
-    	<p class="txt1">佳句共賞</p>
-    	<p class="txt" id="pid">From saving comes having. </p>
-    	<div class="txt">富有來自節儉</div>
-    </body>
-    
-    </html>
-    ```
     
 - 屬性選擇器：篩選用，須搭配運算子，有反向選擇（:not）
 - 虛擬類別選擇器（較進階的用法），又稱偽選擇器，大致上可區分為以下。
